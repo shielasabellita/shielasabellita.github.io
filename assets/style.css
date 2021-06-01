@@ -1,3 +1,51 @@
+@font-face {
+	font-family: LogoFont;
+	src: url('fonts/BeautyMountainsPersonalUse-od7z.ttf');
+}
+
+@font-face {
+	font-family: bodyfont;
+	src: url('fonts/KgMissKindergarten-9v7j.ttf');
+}
+
+
 body {
-	background-color: gray;
+	background-color: #ECEBE2;
+}
+
+* {
+	font-family: bodyfont;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #A8A194;
+}
+
+
+nav {
+	background-color: #E4C9B4;
+	padding: 10px 0;
+	z-index: -1;
+	box-shadow: 2px 5px 3px #aaaaaa;
+}
+
+.nav-title {
+	color: #223745;
+}
+
+.logo {
+	font-family: LogoFont;
+	position: absolute;
+	z-index: 1;
+	text-shadow: 10px 10px 5px #ECEBE2;
+	font-size: 40px;
+	color: #223745;
+}
+
+.logo:hover {
+	padding: 10px 13px; 
+	border-radius: 25px;
+	color: #223745;
+	text-shadow: 10px 10px 5px #ECEBE2;
 }
